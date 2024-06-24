@@ -1,0 +1,107 @@
+#mainbanner-block {
+  margin-bottom: 40px;
+}
+#mainbanner-block .block__pagination {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: unset !important;
+  bottom: 35px !important;
+  width: fit-content !important;
+  padding: 15px 25px !important;
+  border-radius: 100px !important;
+  background: var(--stroke, #383838) !important;
+}
+#mainbanner-block .content {
+  overflow: hidden;
+  position: relative;
+  min-height: 750px;
+}
+#mainbanner-block .content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(30, 30, 30, 0.5) 52.5%, rgba(30, 30, 30, 0) 62.66%);
+  z-index: -1;
+}
+#mainbanner-block .content__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+#mainbanner-block .content__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#mainbanner-block .content__wrapper {
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mainbanner-block .content__title {
+  max-width: 605px;
+  color: var(--card, #FFF);
+  font-family: "Pattaya", sans-serif;
+  font-size: calc(0.01875 * 100vw + 44px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 88px */
+  text-transform: uppercase;
+}
+#mainbanner-block .content__title span {
+  color: var(--primary, #85D040);
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit; /* 88px */
+  text-transform: inherit;
+}
+#mainbanner-block .content__btn {
+  margin-top: 50px;
+}
+
+/*============ MEDIA ==================*/
+@media (max-width: 992px) {
+  #mainbanner-block .content {
+    min-height: 500px;
+  }
+  #mainbanner-block .content__wrapper {
+    padding: 150px 0;
+  }
+}
+@media (max-width: 769px) {
+  #mainbanner-block .content::before {
+    background: linear-gradient(90deg, rgba(30, 30, 30, 0.5) 76.5%, rgba(30, 30, 30, 0) 101.66%);
+  }
+  #mainbanner-block .content__wrapper {
+    padding: 100px 0;
+  }
+  #mainbanner-block .content__btn {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 576px) {
+  #mainbanner-block {
+    margin-bottom: 20px;
+  }
+  #mainbanner-block .content::before {
+    background: linear-gradient(90deg, rgba(30, 30, 30, 0.5) 76.5%, rgba(30, 30, 30, 0) 101.66%);
+  }
+  #mainbanner-block .content__wrapper {
+    padding: 50px 0;
+  }
+  #mainbanner-block .content__btn {
+    margin-top: 15px;
+  }
+}
+
+/*# sourceMappingURL=block.css.map */

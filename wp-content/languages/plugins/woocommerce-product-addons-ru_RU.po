@@ -1,0 +1,673 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-13 11:59:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: WooCommerce - Extensions - WooCommerce Product Add-ons\n"
+
+#. translators: %1$s: Plugin name, %2$s: Plugin URL, %3$s: Plugin name full,
+#. %4$s: Plugin version
+#: includes/class-wc-product-addons-compatibility.php:196
+msgid "The installed version of <strong>%1$s</strong> does not support <strong>Product Add-ons</strong>. Please update <a href=\"%2$s\" target=\"_blank\">%3$s</a> to version <strong>%4$s</strong> or higher."
+msgstr ""
+
+#: includes/class-wc-product-addons-compatibility.php:193
+msgid "WooCommerce Blocks"
+msgstr "Блоки WooCommerce"
+
+#: includes/class-wc-product-addons-cart.php:664
+msgctxt "percentage based addon price in cart"
+msgid " (%1$s)"
+msgstr ""
+
+#: includes/class-wc-product-addons-cart.php:657
+msgctxt "quantity based addon price in cart"
+msgid " (%1$s)"
+msgstr ""
+
+#: includes/class-wc-product-addons-cart.php:653
+msgctxt "custom price addon price in cart"
+msgid " (%1$s)"
+msgstr ""
+
+#: includes/class-wc-product-addons-cart.php:648
+msgctxt "flat fee addon price in cart"
+msgid " (+ %1$s)"
+msgstr ""
+
+#: includes/class-wc-product-addons-cart.php:271
+msgctxt "custom addon price in order"
+msgid " (%1$s)"
+msgstr ""
+
+#: includes/class-wc-product-addons-cart.php:269
+msgctxt "addon price in order"
+msgid " (%1$s)"
+msgstr ""
+
+#: includes/class-wc-product-addons-cart.php:267
+msgctxt "flat fee addon price in order"
+msgid " (+ %1$s)"
+msgstr ""
+
+#: includes/api/class-wc-product-addons-store-api.php:104
+msgid "Addons data."
+msgstr ""
+
+#. translators: %1$s: Version %, %2$s: Update PHP doc URL
+#: woocommerce-product-addons.php:98
+msgid "WooCommerce Product Add-Ons requires at least PHP <strong>%1$s</strong>. Learn <a href=\"%2$s\">how to update PHP</a>."
+msgstr "Для работы с расширением WooCommerce Product Add-Ons требуется PHP версии не менее <strong>%1$s</strong>. Узнайте, <a href=\"%2$s\">как обновить PHP</a>."
+
+#: includes/admin/class-wc-product-addons-admin.php:247
+#: includes/admin/class-wc-product-addons-admin.php:470
+msgid " (currently %s)"
+msgstr " (в настоящее время %s)"
+
+#: includes/admin/class-wc-product-addons-admin.php:247
+#: includes/admin/class-wc-product-addons-admin.php:470
+msgid "Product Add-Ons has detected that your server may have failed to process and save some of the data on this page. Please get in touch with your server's host or administrator and (kindly) ask them to increase the number of variables that PHP scripts can post and process%1$s."
+msgstr "Расширение Product Add-Ons обнаружило, что ваш сервер, возможно, не смог обработать и сохранить некоторые данные на этой странице. Обратитесь к владельцу или администратору вашего сервера и попросите их %1$sувеличить количество переменных, которые скрипты PHP могут передавать и обрабатывать."
+
+#: includes/class-wc-product-addons-tracker.php:365
+msgid "Invalid key &quot;%1$s&quot; passed to get_reusable_data."
+msgstr "Недопустимый ключ %1$s передан в get_reusable_data."
+
+#: includes/class-wc-product-addons-display.php:106
+msgid "Please enter letters only."
+msgstr "Используйте только буквы."
+
+#: includes/class-wc-product-addons-display.php:113
+msgid "Please enter %1$s or less."
+msgstr "Введите %1$s или менее."
+
+#: includes/class-wc-product-addons-display.php:112
+msgid "Please enter %1$s or more."
+msgstr "Введите %1$s или более."
+
+#: includes/class-wc-product-addons-display.php:111
+msgid "Please enter up to %1$s characters."
+msgstr "Введите до %1$s символов."
+
+#: includes/class-wc-product-addons-display.php:110
+msgid "Please enter at least %1$s characters."
+msgstr "Введите не менее %1$s символов."
+
+#: includes/class-wc-product-addons-display.php:109
+msgid "Please enter a valid email address."
+msgstr "Пожалуйста, введите корректный адрес email."
+
+#: includes/class-wc-product-addons-display.php:108
+msgid "Please enter letters and numbers only."
+msgstr "Используйте только буквы и числа."
+
+#: includes/class-wc-product-addons-display.php:105
+msgid "Please upload a file."
+msgstr "Загрузите файл."
+
+#: includes/class-wc-product-addons-display.php:104
+msgid "Please enter a number in this field."
+msgstr "Введите в это поле число."
+
+#: includes/class-wc-product-addons-display.php:103
+msgid "Please enter some text in this field."
+msgstr "Введите в этом поле текст."
+
+#: includes/class-wc-product-addons-display.php:102
+msgid "Please choose an option."
+msgstr "Выберите опцию."
+
+#: includes/class-wc-product-addons-compatibility.php:181
+msgid "WooCommerce Composite Products"
+msgstr "WooCommerce Composite Products"
+
+#: includes/class-wc-product-addons-compatibility.php:180
+msgid "Composite Products"
+msgstr "Составные товары"
+
+#. translators: %1$s: Extension, %2$s: Extension URL, %3$s: Extension full
+#. name, %4$s: Required version.
+#: includes/class-wc-product-addons-compatibility.php:171
+#: includes/class-wc-product-addons-compatibility.php:183
+msgid "The installed version of <strong>%1$s</strong> is not supported by <strong>Product Add-ons</strong>. Please update <a href=\"%2$s\" target=\"_blank\">%3$s</a> to version <strong>%4$s</strong> or higher."
+msgstr "Расширение <strong>Product Add-ons</strong> не поддерживает установленную версию <strong>%1$s</strong>. Обновите <a href=\"%2$s\" target=\"_blank\">%3$s</a> до версии <strong>%4$s</strong> или выше."
+
+#: includes/class-wc-product-addons-compatibility.php:168
+msgid "WooCommerce Product Bundles"
+msgstr "WooCommerce Product Bundles"
+
+#: includes/class-wc-product-addons-compatibility.php:167
+msgid "Product Bundles"
+msgstr "Пакеты"
+
+#: includes/class-wc-product-addons-compatibility.php:59
+#: includes/class-wc-product-addons-compatibility.php:68
+msgid "Foul!"
+msgstr "Ошибка."
+
+#: includes/admin/class-wc-product-addons-admin.php:104
+msgid "Show running subtotal, even if not all required add-on choices have been made."
+msgstr "Показывать текущий подытог, даже если не все необходимые дополнения были выбраны."
+
+#: includes/admin/class-wc-product-addons-admin.php:89
+msgid "Show Incomplete subtotal"
+msgstr "Показывать неполный подытог"
+
+#. translators: %1$s is the HTML for the opening tag of the link element.
+#. 'Documentation' will be an <a> element linking to the WooCommerce.com docs
+#. %2$s is the closing tag.
+#: includes/admin/views/html-global-admin.php:86
+msgid "Need help with add-ons? Visit the %1$sDocumentation%2$s."
+msgstr "Нужна помощь с дополнениями? Посетите раздел %1$sДокументация%2$s."
+
+#: includes/admin/views/html-addon.php:235
+msgid "unlimited"
+msgstr "Без лимита"
+
+#: includes/class-wc-product-addons-display.php:115
+msgid "%s characters remaining"
+msgstr "%s симв. осталось"
+
+#: woocommerce-product-addons.php:257
+msgid "Find products"
+msgstr "Найти товары"
+
+#: woocommerce-product-addons.php:257
+msgid "Create an add-on that applies to every product, or apply it to specific categories. Create an add-on for an individual product by editing the product."
+msgstr "Создайте дополнение для всех товаров или отдельных категорий. Создать дополнения для конкретного товара можно в режиме редактирования."
+
+#: woocommerce-product-addons.php:257
+msgid "WooCommerce Product Add-ons is ready to go!"
+msgstr "WooCommerce Product Add-ons готово к работе!"
+
+#: woocommerce-product-addons.php:244
+msgid "Documentation"
+msgstr "Документация"
+
+#: woocommerce-product-addons.php:243
+msgid "Support"
+msgstr "Поддержка"
+
+#. translators: %s WC download URL link.
+#: woocommerce-product-addons.php:41
+msgid "Product Add-ons requires WooCommerce to be installed and active. You can download %s here."
+msgstr "Чтобы использовать WooCommerce Product Add-ons, необходимо установить и активировать WooCommerce. Загрузить его можно %s здесь."
+
+#: includes/groups/class-wc-product-addons-groups.php:83
+msgid "Unable to delete group. Invalid global add ons group ID."
+msgstr "Не удаётся удалить группу. Недопустимый общий ИД группы дополнений"
+
+#: includes/groups/class-wc-product-addons-groups.php:51
+msgid "Unable to retrieve data. Invalid global add ons group or product ID."
+msgstr "Не удалось загрузить данные. Недопустимый общий ИД группы дополнений или товара"
+
+#: includes/fields/class-wc-product-addons-field-file-upload.php:35
+msgid "Filesize exceeds the limit."
+msgstr "Размер файла превышает допустимое значение."
+
+#. translators: %s Addon name
+#: includes/fields/class-wc-product-addons-field-custom.php:67
+msgid "Please enter a value greater than 0 for \"%s\"."
+msgstr "Введите значение больше 0 для \"%s\"."
+
+#. translators: 1 Addon name 2 Maximum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:54
+msgid "The maximum allowed amount for \"%1$s\" is %2$s."
+msgstr "Максимальное допустимое значение для \"%1$s\" — %2$s."
+
+#. translators: 1 Addon name 2 minimum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:47
+msgid "The minimum amount required for \"%1$s\" is %2$s."
+msgstr "Минимальное необходимое значение для \"%1$s\" — %2$s."
+
+#. translators: 1 Addon name 2 Maximum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:39
+msgid "The maximum allowed characters for \"%1$s\" is %2$s."
+msgstr "Максимальное количество символов для \"%1$s\" — %2$s."
+
+#. translators: 1 Addon name 2 Minimum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:34
+msgid "The minimum characters required for \"%1$s\" is %2$s."
+msgstr "Минимальное количество символов для \"%1$s\" — %2$s."
+
+#: includes/class-wc-product-addons-display.php:114
+msgid "Subtotal"
+msgstr "Подытог"
+
+#: includes/admin/views/html-global-admin.php:66
+msgid "Create add-ons."
+msgstr "Создать дополнение."
+
+#: includes/admin/views/html-global-admin.php:66
+msgid "No add-ons found."
+msgstr "Дополнения не найдены."
+
+#: includes/admin/views/html-global-admin.php:50
+msgid "No Products Assigned"
+msgstr "Нет назначенных товаров"
+
+#: includes/admin/views/html-global-admin.php:15
+msgid "Create New"
+msgstr "Создать"
+
+#: includes/admin/views/html-global-admin.php:15
+msgid "Add-Ons"
+msgstr "Дополнения"
+
+#: includes/admin/views/html-global-admin-add.php:62
+msgid "Select which categories this add-on should apply to. Create add-ons for a single product when editing that product."
+msgstr "Выберите, к каким категориям нужно применить это дополнение. Создать дополнение для конкретного товара можно в режиме редактирования товара."
+
+#: includes/admin/views/html-global-admin-add.php:51
+msgid "Product categories"
+msgstr "Категории товаров"
+
+#: includes/admin/views/html-global-admin-add.php:49
+msgid "Choose categories&hellip;"
+msgstr "Выберите категории…"
+
+#: includes/admin/views/html-global-admin-add.php:46
+#: includes/admin/views/html-global-admin.php:22
+msgid "Product Categories"
+msgstr "Категории товаров"
+
+#: includes/admin/views/html-global-admin-add.php:41
+msgid "This determines the order when there are multiple add-ons. Add-ons for individual products are set to order 10."
+msgstr "Этот параметр определяет порядок дополнений, если их несколько Дополнения отдельных товаров имеют значение порядка \"10\"."
+
+#: includes/admin/views/html-global-admin-add.php:32
+msgid "This name is for your reference only and will not be visible to customers."
+msgstr "Это имя указывается для вашего удобства и не отображается для клиентов."
+
+#: includes/admin/views/html-global-admin-add.php:28
+#: includes/admin/views/html-global-admin.php:20
+msgid "Name"
+msgstr "Имя"
+
+#: includes/admin/views/html-global-admin-add.php:19
+msgid "Set up add-ons that apply to all products or specific product categories."
+msgstr "Настраивайте применение дополнений ко всем товарам или отдельным категориям."
+
+#: includes/admin/views/html-global-admin-add.php:11
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/admin/views/html-global-admin-add.php:10
+msgid "Edit Add-on"
+msgstr "Изменить дополнение"
+
+#: includes/admin/views/html-global-admin-add.php:7
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: includes/admin/views/html-global-admin-add.php:6
+#: woocommerce-product-addons.php:257
+msgid "Create add-ons"
+msgstr "Создать дополнения"
+
+#: includes/admin/views/html-addon.php:248
+msgid "Adjust price"
+msgstr "Настроить цену"
+
+#: includes/admin/views/html-addon.php:236
+msgid "Enter a minimum and maximum value for the limit range."
+msgstr "Укажите минимальное и максимальное значение допустимого диапазона."
+
+#: includes/admin/views/html-addon.php:189
+msgid "Add Option"
+msgstr "Добавить вариант"
+
+#: includes/admin/views/html-addon.php:171
+#: includes/admin/views/html-addon.php:249
+msgid "Choose how to calculate price: apply a flat fee regardless of quantity, charge per quantity ordered, or charge a percentage of the total"
+msgstr "Выберите способ расчета цены: фиксированная цена независимо от количества, цена по количеству заказанных единиц товара или процент от общей суммы"
+
+#: includes/admin/views/html-addon.php:165
+msgid "Option"
+msgstr "Опция"
+
+#: includes/admin/views/html-addon.php:144
+msgid "Add description"
+msgstr "Добавить описание"
+
+#: includes/admin/views/html-addon.php:134
+msgid "Hide"
+msgstr "Скрыть"
+
+#: includes/admin/views/html-addon.php:132
+msgid "Label"
+msgstr "Текст подписи"
+
+#: includes/admin/views/html-addon.php:128
+msgid "Format title"
+msgstr "Заголовок формата"
+
+#: includes/admin/views/html-addon.php:119
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/admin/views/html-addon.php:110
+msgid "Only Email Address"
+msgstr "Только адрес эл. почты"
+
+#: includes/admin/views/html-addon.php:109
+msgid "Only Letters and Numbers"
+msgstr "Только буквы и цифры"
+
+#: includes/admin/views/html-addon.php:108
+msgid "Only Numbers"
+msgstr "Только цифры"
+
+#: includes/admin/views/html-addon.php:107
+msgid "Only Letters"
+msgstr "Только буквы"
+
+#: includes/admin/views/html-addon.php:106
+msgid "Any Text"
+msgstr "Только текст"
+
+#: includes/admin/views/html-addon.php:102
+msgid "Restriction"
+msgstr "Ограничение"
+
+#: includes/admin/views/html-addon.php:95
+msgid "Images"
+msgstr "Изображения"
+
+#: includes/admin/views/html-addon.php:94
+msgid "Radio Buttons"
+msgstr "Переключатели"
+
+#: includes/admin/views/html-addon.php:93
+msgid "Dropdowns"
+msgstr "Выпадающие меню"
+
+#: includes/admin/views/html-addon.php:89
+msgid "Display as"
+msgstr "Отобразить как"
+
+#: includes/admin/views/html-addon.php:82
+#: includes/admin/views/html-addon.php:133
+msgid "Heading"
+msgstr "Заголовок"
+
+#: includes/admin/views/html-addon.php:80
+msgid "Customer Defined Price"
+msgstr "Настраиваемая цена"
+
+#: includes/admin/views/html-addon.php:71
+msgid "Type"
+msgstr "Тип"
+
+#: includes/admin/views/html-addon.php:9
+msgid "Multiple choice"
+msgstr "Множественный выбор"
+
+#: includes/admin/views/html-addon-panel.php:56
+msgid "Hide additional add-ons that may apply to this product."
+msgstr "Скрыть дополнения, которые могут применяться к этому товару."
+
+#: includes/admin/views/html-addon-panel.php:55
+msgid "Exclude add-ons"
+msgstr "Исключить дополнения"
+
+#. translators: %s URL to addons page
+#: includes/admin/views/html-addon-panel.php:50
+msgid "You can create additional <a href=\"%s\">add-ons</a> that apply to all products or to certain categories."
+msgstr "Можно создать <a href=\"%s\">дополнения</a>, которые будут применяться ко всем товарам или отдельным категориям."
+
+#: includes/admin/views/html-addon-panel.php:46
+msgid "Additional add-ons"
+msgstr "Дополнения"
+
+#: includes/admin/views/html-addon-panel.php:32
+msgid "Add Field"
+msgstr "Добавить поле"
+
+#: includes/admin/views/html-addon-panel.php:11
+msgid "Add fields to get additional information from customers"
+msgstr "Добавьте поля, чтобы получать от покупателей дополнительную информацию."
+
+#: includes/admin/views/html-addon-panel.php:11
+msgid "Add-on fields"
+msgstr "Поля дополнений"
+
+#: includes/admin/views/html-addon-option.php:42
+#: includes/admin/views/html-addon.php:256
+msgid "Percentage Based"
+msgstr "Процент от суммы"
+
+#: includes/admin/views/html-addon-option.php:41
+#: includes/admin/views/html-addon.php:255
+msgid "Quantity Based"
+msgstr "По количеству"
+
+#: includes/admin/views/html-addon-option.php:40
+#: includes/admin/views/html-addon.php:254
+msgid "Flat Fee"
+msgstr "Фиксированная цена"
+
+#: includes/admin/views/html-addon-option.php:35
+msgid "Enter an option"
+msgstr "Укажите вариант"
+
+#. translators: %1$s is the HTML for the opening tag of the link element. %2$s
+#. is the closing tag. The text between will be a hyperlink.
+#: includes/admin/class-wc-product-addons-privacy.php:34
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. %1$sLearn more about how this works, including what you may want to include in your privacy policy.%2$s"
+msgstr "С помощью этого расширения можно хранить персональные данные или обмениваться ими со сторонней службой. %1$sУзнайте больше о том, как они работают, в том числе о пунктах, которые необходимо включить в политику конфиденциальности.%2$s"
+
+#: includes/admin/class-wc-product-addons-admin.php:76
+#: includes/admin/class-wc-product-addons-privacy.php:24
+msgid "Product Add-ons"
+msgstr "Дополнения к товару"
+
+#: includes/admin/class-wc-product-addons-admin.php:775
+msgid "Variation ID:"
+msgstr "ID вариации:"
+
+#. translators: %s ID of variation
+#: includes/admin/class-wc-product-addons-admin.php:772
+msgid "%s (No longer exists)"
+msgstr "%s (больше не существует)"
+
+#: includes/admin/class-wc-product-addons-admin.php:763
+msgid "SKU:"
+msgstr "Артикул:"
+
+#: includes/admin/class-wc-product-addons-admin.php:352
+#: includes/admin/views/html-addon.php:75
+msgid "Multiple Choice"
+msgstr "Множественный выбор"
+
+#: includes/admin/class-wc-product-addons-admin.php:348
+msgid "Dropdown"
+msgstr "Выпадающее меню"
+
+#: includes/admin/class-wc-product-addons-admin.php:345
+#: includes/admin/views/html-addon.php:79
+msgid "File Upload"
+msgstr "Загрузка файла"
+
+#: includes/admin/class-wc-product-addons-admin.php:342
+#: includes/admin/views/html-addon.php:78
+msgid "Long Text"
+msgstr "Длинный текст"
+
+#: includes/admin/class-wc-product-addons-admin.php:339
+#: includes/admin/views/html-addon.php:77
+msgid "Short Text"
+msgstr "Короткий текст"
+
+#: includes/admin/class-wc-product-addons-admin.php:336
+#: includes/admin/views/html-addon.php:81
+msgid "Quantity"
+msgstr "Количество"
+
+#: includes/admin/class-wc-product-addons-admin.php:333
+#: includes/admin/views/html-addon.php:170
+msgid "Price"
+msgstr "Цена"
+
+#: includes/admin/class-wc-product-addons-admin.php:330
+msgid "Checkbox"
+msgstr "Флажок"
+
+#: includes/admin/class-wc-product-addons-admin.php:301
+#: includes/admin/class-wc-product-addons-admin.php:376
+msgid "Add-ons Group"
+msgstr "Группа дополнений"
+
+#: includes/admin/class-wc-product-addons-admin.php:269
+#: includes/admin/class-wc-product-addons-admin.php:286
+msgid "Error: Add-on not found"
+msgstr "Ошибка: дополнение не найдено"
+
+#: includes/admin/class-wc-product-addons-admin.php:215
+msgid "Add Image"
+msgstr "Добавить изображение"
+
+#: includes/admin/class-wc-product-addons-admin.php:214
+msgid "Add Image Swatch"
+msgstr "Добавить образец изображения"
+
+#: includes/admin/class-wc-product-addons-admin.php:212
+msgid "Are you sure you want remove this add-on field?"
+msgstr "Удалить это поле дополнения?"
+
+#: includes/admin/class-wc-product-addons-admin.php:211
+#: includes/admin/views/html-addon.php:198
+msgid "Restrictions"
+msgstr "Ограничения"
+
+#: includes/admin/class-wc-product-addons-admin.php:210
+#: includes/admin/views/html-addon.php:211
+#: includes/admin/views/html-addon.php:214
+msgid "Limit character length"
+msgstr "Ограничить количество символов"
+
+#: includes/admin/class-wc-product-addons-admin.php:209
+#: includes/admin/views/html-addon.php:208
+msgid "Limit quantity range"
+msgstr "Ограничить количество"
+
+#: includes/admin/class-wc-product-addons-admin.php:208
+#: includes/admin/views/html-addon.php:204
+msgid "Limit price range"
+msgstr "Задать диапазон цен"
+
+#: includes/admin/class-wc-product-addons-admin.php:207
+msgid "All fields must have a title and/or option name. Please review the settings highlighted in red border."
+msgstr "У каждого поля должен быть заголовок и (или) название опции. Просмотрите параметры, заключенные в красную рамку."
+
+#: templates/addons/image.php:70 templates/addons/select.php:28
+msgid "Select an option..."
+msgstr "Выберите опцию..."
+
+#: templates/addons/image.php:22 templates/addons/image.php:23
+#: templates/addons/image.php:68 templates/addons/radiobutton.php:26
+#: templates/addons/select.php:26
+msgid "None"
+msgstr "Пусто"
+
+#. translators: %s file size.
+#: templates/addons/file-upload.php:42
+msgid "(max file size %s)"
+msgstr "(максимальный размер файла %s)"
+
+#: includes/admin/views/html-addon.php:154 templates/addons/addon-start.php:70
+#: templates/addons/addon-start.php:91
+msgid "Required field"
+msgstr "Обязательное поле"
+
+#. translators: %s Name of the addon
+#. translators: %s Addon name
+#: includes/fields/class-wc-product-addons-field-custom.php:24
+#: includes/fields/class-wc-product-addons-field-file-upload.php:29
+#: includes/fields/class-wc-product-addons-field-list.php:15
+#: includes/fields/class-wc-product-addons-field-select.php:14
+msgid "\"%s\" is a required field."
+msgstr "\"%s\" — обязательное поле."
+
+#: includes/class-wc-product-addons-display.php:532
+msgid "Select options"
+msgstr "Выбрать ..."
+
+#: includes/class-wc-product-addons-display.php:107
+msgid "Please enter numbers only."
+msgstr "Используйте только цифры."
+
+#: includes/admin/views/html-global-admin.php:39
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/admin/views/html-global-admin.php:39
+msgid "Edit"
+msgstr "Изменить"
+
+#: includes/admin/views/html-global-admin.php:23
+msgid "Number of Fields"
+msgstr "Количество полей"
+
+#: includes/admin/views/html-global-admin-add.php:50
+#: includes/admin/views/html-global-admin.php:48
+msgid "All Products"
+msgstr "Все товары"
+
+#: includes/admin/views/html-global-admin-add.php:37
+#: includes/admin/views/html-global-admin.php:21
+msgid "Priority"
+msgstr "Приоритет"
+
+#: includes/admin/views/html-addon.php:76
+msgid "Checkboxes"
+msgstr "Флажки"
+
+#: includes/admin/views/html-addon.php:60
+msgid "Click to toggle"
+msgstr "Нажмите для переключения"
+
+#: includes/admin/views/html-addon.php:59
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/admin/class-wc-product-addons-admin.php:213
+msgid "Are you sure you want delete this option?"
+msgstr "Удалить этот вариант?"
+
+#: includes/admin/views/html-addon-panel.php:42
+msgid "Paste exported form data here and then save to import fields. The imported fields will be appended."
+msgstr "Вставьте данные из экспортированной формы и сохраните, чтобы импортировать поля. Импортированные поля будут добавлены в конец."
+
+#: includes/admin/views/html-addon-panel.php:36
+msgid "Export"
+msgstr "Экспорт"
+
+#: includes/admin/views/html-addon-panel.php:35
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/admin/views/html-addon-panel.php:13
+msgid "Expand all"
+msgstr "Развернуть все"
+
+#: includes/admin/views/html-addon-panel.php:13
+msgid "Close all"
+msgstr "Закрыть все"
+
+#: includes/admin/class-wc-product-addons-admin.php:61
+#: includes/admin/class-wc-product-addons-admin.php:443
+msgid "Add-ons"
+msgstr "Дополнения"
+
+#: includes/admin/class-wc-product-addons-admin.php:313
+msgid "Add-on deleted successfully"
+msgstr "Дополнение удалено."
+
+#: includes/admin/class-wc-product-addons-admin.php:258
+msgid "Add-on saved successfully"
+msgstr "Дополнение сохранено"

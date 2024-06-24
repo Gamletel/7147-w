@@ -1,0 +1,100 @@
+@import '../../../assets/css/_colors.scss';
+
+@function calcFluidFontSize($f-min, $f-max, $v-min, $v-max) {
+  $k: ($f-max - $f-min)/($v-max - $v-min);
+  $b: $f-min - $k * $v-min;
+
+  $b: $b * 1px;
+
+  @return calc(#{$k} * 100vw + #{$b});
+}
+
+#pay-block {
+  position: relative;
+
+  .bg {
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+    max-width: 100%;
+    z-index: -1;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .tabs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+    .tab {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border-radius: 20px;
+      background: var(--head, #1E1E1E);
+      padding: 40px 50px;
+
+      &__title {
+        color: var(--card);
+      }
+
+      &__text {
+        color: var(--main-text, #959595);
+      }
+    }
+  }
+}
+
+/*============ MEDIA ==================*/
+@media (max-width: 1240px) {
+
+}
+
+@media (max-width: 1221px) {
+
+}
+
+@media (max-width: 1025px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 769px) {
+  #pay-block {
+    .tabs {
+      gap: 15px;
+
+      .tab {
+        gap: 15px;
+        padding: 20px 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #pay-block {
+    .tabs {
+      gap: 10px;
+      grid-template-columns: 1fr;
+
+      .tab {
+        padding: 10px 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 498px) {
+
+}
+
+@media (max-width: 375px) {
+
+}

@@ -1,0 +1,119 @@
+@import '../../../assets/css/_colors.scss';
+
+@function calcFluidFontSize($f-min, $f-max, $v-min, $v-max) {
+  $k: ($f-max - $f-min)/($v-max - $v-min);
+  $b: $f-min - $k * $v-min;
+
+  $b: $b * 1px;
+
+  @return calc(#{$k} * 100vw + #{$b});
+}
+
+#advantages-block {
+  .advantages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+
+  .advantage {
+    display: flex;
+    flex-direction: column;
+
+    &__icon {
+      width: 90px;
+      height: 90px;
+      flex-shrink: 0;
+      margin-bottom: 25px;
+
+      img, svg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    &__title {
+      margin-bottom: 15px;
+
+      color: var(--card, #FFF);
+    }
+
+    &__subtitle {
+      color: var(--main-text, #959595);
+    }
+  }
+}
+
+/*============ MEDIA ==================*/
+@media (max-width: 1240px) {
+
+}
+
+@media (max-width: 1221px) {
+
+}
+
+@media (max-width: 1025px) {
+
+}
+
+@media (max-width: 992px) {
+  #advantages-block {
+    .advantages{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  #advantages-block {
+    .advantages{
+      gap: 15px;
+    }
+
+    .advantage{
+      &__icon{
+        width: 75px;
+        height: 75px;
+        margin-bottom: 20px;
+      }
+
+      &__title{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #advantages-block {
+    .advantages{
+      gap: 10px;
+    }
+
+    .advantage{
+      &__icon{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+      }
+
+      &__title{
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 498px) {
+  #advantages-block{
+    .advantages{
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+
+}
